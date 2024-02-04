@@ -1,1 +1,114 @@
-p{color: red;}
+// 各タグの設定
+body{
+  margin: 0;
+  font-family: "小塚ゴシック Pro", 游ゴシック, Meiryo, sans-serif;
+}
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
+h2 {
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 16px;
+}
+h3{
+  background:linear-gradient(transparent 60%, #f9ff10 60%);
+  line-height: 1.0;
+  margin: 0;
+  font-size: 24px;
+}
+p {
+  margin: 0;
+  text-align: center;
+}
+
+// 最初の説明枠
+.container{
+  background-image: url("https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -30px;
+  padding-top: 140px; //margin-top:-20pxになってるから実質140px
+}
+.article{
+  border: black solid 2px;
+  background-color: white;
+  border: 5.625px black solid;
+  border-radius: 20px;
+  padding: 32px 16px;
+  margin: 0 200 32;
+}
+.article > * {
+  display: flex;
+  justify-content: center;
+}
+.article > div{
+  display: block;
+}
+.article > .maker{
+  display: flex;
+}
+.manual{
+  margin: 0px;
+  margin-bottom: 16px;
+}
+.manual > p{
+  line-height: 1.8;
+  font-size: 22px;
+}
+.article > .link-block{
+  display: flex;
+  justify-content: center;
+}
+.link{
+  display: block;
+  color: white;
+  background-color: rgb(0, 155, 207);
+  text-align: center;
+  padding: 16px;
+  margin: 16px 48px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  width: 560px;
+}
+.careful > p{
+  font-size: 12.8px;
+  line-height: 23.04px;
+}
+// ３つのアイコンとテキスト
+.icon-text{
+  display: flex;
+  justify-content: center;
+}
+.icon{
+  padding: 0px 5px;
+}
+.icon > span{
+  display: block;
+  text-align: center;
+  color: white;
+}
+// 黒背景でようこそ！の文
+.welcome-cont{
+  background-color: black;
+  color: white;
+  margin-top: -90px;
+  padding: 140px 10px 3em;
+}
+.welcome{
+  width: 800px;
+  margin: 0px auto;
+}
+.welcome > div{
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 26px;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.5em;
+}
+.welcome > p{
+  text-align: left;
+  font-size: 16px;
+}
