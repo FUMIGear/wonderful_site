@@ -27,6 +27,53 @@ p {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  height: 112px;
+  width: 100%;
+  padding: 0px 15px;
+  margin: 0 auto;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+ul {
+  align-items: center;
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  line-height: 20px;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: 700;
+}
+
+.header ul div {
+  background-color: #F5B92F;
+  transition: 0.3s;
+  padding: 14px 20px 12px;
+  color: white;
+}
+.header ul div span {
+  font-size: 32px;
+  vertical-align: middle;
+}
+
+.header ul div:hover {
+  background-color: gray;
+  transition: 0.3s;
+}
+
 .container {
   background-image: url("https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg");
   background-repeat: no-repeat;
