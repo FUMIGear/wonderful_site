@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrapのcss -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- 自分で作ったcssファイル -->
   <link rel="stylesheet" href="style/main.css">
   <!-- <link rel="stylesheet" href="style/main2.scss"> --><!--.scssファイルでスタイルは適用されない-->
   <title>学習：ワンダフルコードLP</title>
@@ -12,15 +15,21 @@
   <div class="header">
     <ul>
       <li><img src="https://wonderful-wife.net/wp-content/uploads/tcd-w/logo.png?1706864332" alt="※画像なし"></li>
-      <li><a href="#">ホーム</a></li>
-      <li><a href="#">オンライン講座</a></li>
-      <li><a href="#">会社概要</a></li>
-      <li><a href="#">お問合せ</a></li>
-      <li><a href="#">ブログ</a></li>
-      <li><a href="#"><div>お問合せはこちら <span>＞</span></div></a></li>
-    <uol>
+      <li class="only-pc"><a href="#">ホーム</a></li>
+      <li class="only-pc"><a href="#">オンライン講座</a></li>
+      <li class="only-pc"><a href="#">会社概要</a></li>
+      <li class="only-pc"><a href="#">お問合せ</a></li>
+      <li class="only-pc"><a href="#">ブログ</a></li>
+      <li class="only-pc inquiry"><a href="#">お問合せはこちら <span>＞</span></a></li>
+      <li class="tablet">
+        <button class="navbar navbar-expand-lg navbar-light navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </li>
+      <!-- </nav> -->
+    </ul>
   </div>
-  <div class="container"><!-- ヘッダー -->
+  <div class="container">
     <div class="article"><!--最初の説明枠-->
       <h1>Wonderful Code</h1>
       <h2>ワンダフル コード</h2>
